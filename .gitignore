@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# Model artifacts / large files
+app/model_store/
+*.joblib
+*.pkl
+*.h5
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
