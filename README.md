@@ -24,22 +24,24 @@ This acts as a foundation for real-world MLOps Engineer / ML Engineer roles.
 🏗️ Project Architecture
 mlops-starter/
 │
-├── app/                 # FastAPI app for model inference
-│   ├── main.py
-│   └── model_store/     # Saved MLflow model (after training)
+├── app/                     # FastAPI application for inference
+│   ├── main.py              # API endpoints
+│   └── model_store/         # Saved MLflow model (after training)
 │
-├── src/                 # Core machine learning pipeline
-│   ├── preprocess.py    # Feature engineering
-│   ├── train.py         # Training & MLflow logging
-│   └── utils.py         # Helper functions
+├── src/                     # Core ML pipeline
+│   ├── preprocess.py        # Feature engineering
+│   ├── train.py             # Model training + MLflow logging
+│   └── utils.py             # Helper functions
 │
-├── data/                # Raw + processed data
+├── data/                    # Raw and processed datasets
 │
-├── Dockerfile           # Container definition for deployment
-├── requirements.txt     # Python dependencies
-├── mlflow.db            # Local MLflow sqlite DB
-├── README.md
-└── .gitignore
+├── Dockerfile               # Docker container definition
+├── requirements.txt         # Python package dependencies
+├── mlflow.db                # Local MLflow SQLite database
+├── README.md                # Project documentation
+└── .gitignore               # Ignore unnecessary files
+
+
 ✨ Features
 ✔️ Full ML Lifecycle
 
@@ -185,3 +187,4 @@ Garvita Varshney
 💼 Data Science & MLOps Enthusiast
 🌐 github.com/github042project
 📧 garvitavarshney042@gmail.com
+
