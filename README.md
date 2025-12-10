@@ -21,7 +21,9 @@ This project is a beginner-friendly yet industry-relevant MLOps Starter Template
 
 This acts as a foundation for real-world MLOps Engineer / ML Engineer roles.
 
-🏗️ Project Architecture
+## 📁 Project Architecture
+
+```bash
 mlops-starter/
 │
 ├── app/                     # FastAPI application for inference
@@ -40,6 +42,8 @@ mlops-starter/
 ├── mlflow.db                # Local MLflow SQLite database
 ├── README.md                # Project documentation
 └── .gitignore               # Ignore unnecessary files
+```
+
 
 
 ✨ Features
@@ -187,4 +191,5 @@ Garvita Varshney
 💼 Data Science & MLOps Enthusiast
 🌐 github.com/github042project
 📧 garvitavarshney042@gmail.com
+
 
